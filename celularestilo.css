@@ -1,0 +1,34 @@
+
+.contenedor-imagen {
+    position: relative;
+    width: 500px; /* Ajusta el tamaño según tu preferencia */
+    height: auto;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sensor {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.1); /* Área sensible ligeramente visible */
+    cursor: pointer;
+    border-radius: 5px; /* Opcional: bordes redondeados para los sensores */
+}
+
+.info-box {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none; /* Oculto por defecto */
+    z-index: 10; /* Asegura que esté por encima de la imagen */
+}
+
+.info-box p {
+    margin: 0;
+}

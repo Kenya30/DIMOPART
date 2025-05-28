@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #e8f5e9; /* Un verde muy claro de fondo */
+    color: #388e3c; /* Verde principal más oscuro para el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.objective {
+    font-style: italic;
+    color: #66bb6a; /* Un tono de verde intermedio */
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+section {
+    background-color: #f1f8e9; /* Otro tono de verde claro para la sección */
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #c8e6c9; /* Borde sutil */
+}
+
+h2 {
+    color: #388e3c; /* Verde principal */
+    border-bottom: 3px solid #81c784; /* Un verde más claro para la línea */
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #43a047; /* Otro tono de verde */
+}
+
+a {
+    color: #1b5e20; /* Verde oscuro para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #388e3c; /* Verde principal al pasar el ratón */
+    text-decoration: underline;
+}
+.logo {
+            animation: swing 2s infinite alternate ease-in-out; /* Aplica la animación 'swing' */
+            transform-origin: center bottom; /* El punto de rotación será la parte inferior central */
+        }
+
+        @keyframes swing {
+            0% {
+                transform: rotate(-3deg);
+            }
+            100% {
+                transform: rotate(3deg);
+            }
+        }

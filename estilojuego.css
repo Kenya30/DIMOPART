@@ -1,0 +1,95 @@
+/* estilojuego.css */
+
+#game-container {
+    width: 90%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 128, 0, 0.2);
+    padding: 24px;
+    text-align: center;
+    border: 2px solid #a8d5ba;
+    position: relative;
+    overflow: hidden;
+    /* Otros estilos específicos del contenedor del juego */
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2e7d32;
+    /* Otros estilos específicos de la pregunta */
+}
+
+#options{
+    /* Estilos para el contenedor de las opciones */
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    background-color: #a5d6a7;
+    color: #1b5e20;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Otros estilos específicos de los botones de opción */
+}
+
+.option-button:hover {
+    background-color: #81c784;
+    /* Estilos específicos al pasar el ratón por los botones de opción */
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #388e3c;
+    /* Otros estilos específicos de la puntuación */
+}
+
+#restart-button, #exit-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    /* Otros estilos específicos de los botones de reiniciar y salir */
+}
+
+#restart-button:hover, #exit-button:hover {
+    background-color: #2e7d32;
+    /* Estilos al pasar el ratón por los botones de reiniciar y salir */
+}
+
+#exit-button {
+    background-color: #d32f2f;
+    /* Estilo específico del botón de salir */
+}
+
+.confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    animation: fall 2s linear infinite;
+    /* Estilos específicos del confeti */
+}
+
+@keyframes fall {
+    0% { transform: translateY(-50px); opacity: 1; }
+    100% { transform: translateY(500px); opacity: 0; }
+    /* Animación específica del confeti */
+}
